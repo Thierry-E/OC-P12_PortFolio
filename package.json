@@ -1,0 +1,23 @@
+{
+  "name": "oc-p12_portfolio",
+  "version": "1.0.0",
+  "description": "Création de mon portfolio professionnel.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch assets/sass/main.scss:assets/style/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thierry-E/OC-P12_PortFolio.git"
+  },
+  "author": "Thierry Emery",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thierry-E/OC-P12_PortFolio/issues"
+  },
+  "homepage": "https://github.com/Thierry-E/OC-P12_PortFolio#readme",
+  "devDependencies": {
+    "sass": "^1.70.0"
+  }
+}
