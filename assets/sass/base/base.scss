@@ -1,5 +1,7 @@
-// Styles Généraux du portfolio
+@import '../utils/mixins';
+@import '../utils/variables.scss';
 
+// Styles Généraux du portfolio
 * {
   margin: 0;
   padding: 0;
@@ -7,4 +9,34 @@
 }
 
 body {
+  @include font_Text;
+  background: url('../../../assets/images/fond.jpg');
+  background-repeat: no-repeat;
+}
+
+header {
+  width: 100%;
+  height: 200px;
+
+  img {
+    width: 5em;
+    height: 5em;
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+
+  h1 {
+    color: $primary_color;
+    font-size: 3em;
+    text-align: center;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @include font_Title;
 }
