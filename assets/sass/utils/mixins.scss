@@ -1,0 +1,10 @@
+// Fichier regroupant les codes réutilisables.
+
+/******Polices******/
+@mixin font_Title {
+  font-family: 'Raleway', sans-serif;
+}
+
+@mixin font_Text {
+  font-family: 'Lato', sans-serif;
+}
