@@ -107,11 +107,14 @@ nav a:hover {
 .about_me .infos_txt .name {
   font-size: 2.3em;
   font-weight: 500;
+  font-style: oblique;
+  word-spacing: 10px;
   margin-bottom: 50px;
 }
 .about_me .infos_txt .city {
   font-size: 2em;
   font-weight: 500;
+  font-style: oblique;
   text-align: center;
 }
 .about_me .about_txt {
