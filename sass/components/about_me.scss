@@ -1,0 +1,50 @@
+@import '../utils/variables.scss';
+@import '../utils/mixins.scss';
+
+.about_me {
+  border: 3px solid red;
+  padding: 100px;
+
+  h3 {
+    font-size: 1.625em;
+    font-weight: 700;
+    margin-bottom: 40px;
+  }
+
+  .infos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    gap: 50px;
+
+    img {
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid $third-color;
+    }
+  }
+
+  .infos_txt {
+    .name {
+      font-size: 2.3em;
+      font-weight: 500;
+      margin-bottom: 50px;
+    }
+
+    .city {
+      font-size: 2em;
+      font-weight: 500;
+      text-align: center;
+    }
+  }
+
+  .about_txt {
+    font-size: 1.1em;
+    text-align: justify;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+}
