@@ -1,0 +1,43 @@
+@import '../utils/variables.scss';
+
+.formation {
+  padding: 100px;
+  background-color: $third_color;
+
+  h2 {
+    font-size: 1.625em;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 5px;
+  }
+
+  p {
+    font-size: 1.1em;
+    margin-bottom: 40px;
+  }
+
+  .all_languages {
+    margin: 0 auto;
+    max-width: 900px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+
+    .languages {
+      width: 200px;
+      height: 200px;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+
+      img {
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}

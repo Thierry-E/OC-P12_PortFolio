@@ -3,5 +3,6 @@
 @use './base/base';
 @use './layouts/header';
 @use './components/navigation';
-@use './components/banner.scss';
-@use './components/about_me.scss';
+@use './components/banner';
+@use './components/about_me';
+@use './components/formations';

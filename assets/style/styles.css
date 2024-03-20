@@ -82,13 +82,15 @@ nav a:hover {
 /******Couleurs******/
 /******Polices******/
 .about_me {
-  border: 3px solid red;
   padding: 100px;
 }
-.about_me h3 {
+.about_me h2 {
   font-size: 1.625em;
   font-weight: 700;
   margin-bottom: 40px;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 5px;
 }
 .about_me .infos {
   display: flex;
@@ -122,6 +124,44 @@ nav a:hover {
   text-align: justify;
   line-height: 30px;
   margin-bottom: 20px;
+}
+
+/******Couleurs******/
+.formation {
+  padding: 100px;
+  background-color: #e5c787;
+}
+.formation h2 {
+  font-size: 1.625em;
+  font-weight: 700;
+  margin-bottom: 40px;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 5px;
+}
+.formation p {
+  font-size: 1.1em;
+  margin-bottom: 40px;
+}
+.formation .all_languages {
+  margin: 0 auto;
+  max-width: 900px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.formation .all_languages .languages {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+.formation .all_languages .languages img {
+  width: 100%;
+  object-fit: cover;
 }
 
 /*# sourceMappingURL=styles.css.map */
