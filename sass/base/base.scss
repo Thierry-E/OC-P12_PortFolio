@@ -23,6 +23,20 @@ h6 {
   @include font_Title;
 }
 
+h2 {
+  font-size: 1.625em;
+  font-weight: 700;
+  margin-bottom: 40px;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 5px;
+}
+
+p {
+  font-size: 1.1em;
+  font-weight: 500;
+}
+
 main {
   width: 1440px;
   background-color: $primary_color;

@@ -4,15 +4,6 @@
 .about_me {
   padding: 100px;
 
-  h2 {
-    font-size: 1.625em;
-    font-weight: 700;
-    margin-bottom: 40px;
-    text-decoration: underline;
-    text-decoration-thickness: 3px;
-    text-underline-offset: 5px;
-  }
-
   .infos {
     display: flex;
     justify-content: center;
@@ -47,7 +38,6 @@
   }
 
   .about_txt {
-    font-size: 1.1em;
     text-align: justify;
     line-height: 30px;
     margin-bottom: 20px;

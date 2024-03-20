@@ -23,6 +23,20 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
+h2 {
+  font-size: 1.625em;
+  font-weight: 700;
+  margin-bottom: 40px;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 5px;
+}
+
+p {
+  font-size: 1.1em;
+  font-weight: 500;
+}
+
 main {
   width: 1440px;
   background-color: #fff;
@@ -84,14 +98,6 @@ nav a:hover {
 .about_me {
   padding: 100px;
 }
-.about_me h2 {
-  font-size: 1.625em;
-  font-weight: 700;
-  margin-bottom: 40px;
-  text-decoration: underline;
-  text-decoration-thickness: 3px;
-  text-underline-offset: 5px;
-}
 .about_me .infos {
   display: flex;
   justify-content: center;
@@ -120,7 +126,6 @@ nav a:hover {
   text-align: center;
 }
 .about_me .about_txt {
-  font-size: 1.1em;
   text-align: justify;
   line-height: 30px;
   margin-bottom: 20px;
@@ -131,16 +136,7 @@ nav a:hover {
   padding: 100px;
   background-color: #e5c787;
 }
-.formation h2 {
-  font-size: 1.625em;
-  font-weight: 700;
-  margin-bottom: 40px;
-  text-decoration: underline;
-  text-decoration-thickness: 3px;
-  text-underline-offset: 5px;
-}
 .formation p {
-  font-size: 1.1em;
   margin-bottom: 40px;
 }
 .formation .all_languages {
