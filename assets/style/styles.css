@@ -40,7 +40,7 @@ p {
 main {
   width: 1440px;
   background-color: #fff;
-  margin: auto;
+  margin: 60px auto;
   border-radius: 25px;
 }
 
@@ -59,13 +59,13 @@ header img {
 }
 header h1 {
   width: 40%;
-  background-color: rgba(221, 211, 169, 0.5);
+  background-color: rgba(0, 0, 0, 0.2);
   margin: 60px auto;
   padding: 20px;
-  color: #000;
+  color: #fff;
   font-size: 3em;
   text-align: center;
-  border: 3px solid rgba(255, 255, 255, 0.6);
+  border: 2px solid rgba(255, 255, 255, 0.6);
   border-radius: 15px;
 }
 
