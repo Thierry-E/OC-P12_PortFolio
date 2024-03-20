@@ -10,23 +10,27 @@
 
   .all_languages {
     margin: 0 auto;
-    max-width: 900px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 5em;
 
     .languages {
-      width: 200px;
-      height: 200px;
+      width: 180px;
+      height: 180px;
       padding: 20px;
       display: flex;
+      flex-direction: column;
       align-items: center;
 
       img {
         width: 100%;
         object-fit: cover;
+      }
+
+      p {
+        font-size: 1.3em;
       }
     }
   }

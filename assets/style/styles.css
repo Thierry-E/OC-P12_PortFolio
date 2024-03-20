@@ -141,23 +141,26 @@ nav a:hover {
 }
 .formation .all_languages {
   margin: 0 auto;
-  max-width: 900px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 5em;
 }
 .formation .all_languages .languages {
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
   padding: 20px;
   display: flex;
+  flex-direction: column;
   align-items: center;
 }
 .formation .all_languages .languages img {
   width: 100%;
   object-fit: cover;
+}
+.formation .all_languages .languages p {
+  font-size: 1.3em;
 }
 
 /*# sourceMappingURL=styles.css.map */
