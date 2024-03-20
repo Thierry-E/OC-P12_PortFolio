@@ -16,9 +16,14 @@ header {
   }
 
   h1 {
-    color: $primary_color;
+    width: 40%;
+    background-color: rgba(221, 211, 169, 0.5);
+    margin: 0 auto;
+    padding: 20px;
+    color: $secondary_color;
     font-size: 3em;
     text-align: center;
-    text-shadow: 0 0 6px $third-color;
+    border: 3px solid $primary-color;
+    border-radius: 15px;
   }
 }
