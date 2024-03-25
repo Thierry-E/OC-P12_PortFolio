@@ -190,7 +190,7 @@ nav a:hover {
 }
 .projets .cards {
   width: 600px;
-  height: 300px;
+  height: 270px;
   display: flex;
   padding: 30px;
   gap: 10px;
