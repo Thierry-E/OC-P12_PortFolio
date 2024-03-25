@@ -190,9 +190,10 @@ nav a:hover {
 }
 .projets .cards {
   width: 600px;
-  height: 350px;
+  height: 300px;
   display: flex;
-  padding: 20px;
+  padding: 30px;
+  gap: 10px;
   border: 1px solid #000;
   border-radius: 20px;
 }
@@ -213,7 +214,7 @@ nav a:hover {
 }
 .projets .picture img {
   width: 300px;
-  height: 200px;
+  height: 150px;
   object-fit: cover;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
