@@ -3,8 +3,8 @@
     "id": 1,
     "name": "Booki",
     "description": "Réalisation d'une page d'accueil pour une agence de voyage.",
-    "langages": "HTML et CSS",
-    "picture": "../images/logo.png",
+    "langages": "Les langages suivants ont étaient utilisés : HTML et CSS",
+    "picture": "./assets/images/booki.webp",
     "url": "https://thierry-e.github.io/OC-P3-Booky/"
   },
 
@@ -12,8 +12,8 @@
     "id": 2,
     "name": "OhMyFood",
     "description": "Amélioration d'un site mobile de restauration avec des animations CSS.",
-    "langages": "HTML, CSS et Sass",
-    "picture": "../images/logo.png",
+    "langages": " Les langages suivant ont étaient utilisés : HTML, CSS et Sass",
+    "picture": "./assets/images/oh-my-food.webp",
     "url": "https://thierry-e.github.io/OC-P4-OhMyFood/"
   },
 
@@ -21,17 +21,17 @@
     "id": 3,
     "name": "Print-it",
     "description": "Améliotation d'un site d'imprimerie avec l'ajout d'un caroussel.",
-    "langages": "HTML, CSS et JavaScript",
-    "picture": "../images/logo.png",
+    "langages": " Les langages suivants ont étaient utilisés : HTML, CSS et JavaScript",
+    "picture": "./assets/images/print-it.webp",
     "url": "https://thierry-e.github.io/OC-P5-Print-it/"
   },
 
   {
     "id": 4,
-    "name": "Portfolio de Sophie Bluel",
+    "name": "Sophie Bluel",
     "description": "Création d'une page web dynamique.",
-    "langages": "HTML, CSS et JavaScript",
-    "picture": "../images/logo.png",
+    "langages": " Les langages suivants ont étaient utilisés : HTML, CSS et JavaScript",
+    "picture": "./assets/images/sophie-bluel.webp",
     "url": "https://thierry-e.github.io/OC_P6_Portfolio-Sophie-Bluel/"
   },
 
@@ -39,8 +39,8 @@
     "id": 5,
     "name": "Kasa",
     "description": "Création d'une application web pour une agence de voyage",
-    "langages": "HTML, CSS, Sass et React",
-    "picture": "../images/logo.png",
+    "langages": "Les langages suivants ont étaient utilisés : HTML, CSS, Sass et React",
+    "picture": "./assets/images/kasa.webp",
     "url": "https://thierry-e.github.io/OC_P6_Portfolio-Sophie-Bluel/"
   },
 
@@ -48,8 +48,8 @@
     "id": 6,
     "name": "Nina Carducci",
     "description": "Optimisation d'un site de photographe professionnelle",
-    "langages": "HTML, CSS et JavaScript",
-    "picture": "../images/logo.png",
-    "url": "https://thierry-e.github.io/OC-P9_Nina-Carducci/"
+    "langages": "Les langages suivants ont étaient utilisés : HTML, CSS et JavaScript",
+    "picture": "./assets/images/nina-carducci.webp",
+    "url": "https://thierry-e.github.io/OC-P9_Nina-Carducci/FrontEnd/index.html"
   }
 ]
