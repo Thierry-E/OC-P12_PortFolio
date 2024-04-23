@@ -13,14 +13,14 @@
     "name": "OhMyFood",
     "description": "Amélioration d'un site mobile de restauration avec des animations CSS.",
     "langages": " Les langages suivant ont étaient utilisés : HTML, CSS et Sass",
-    "picture": "./assets/images/oh-my-food.webp",
+    "picture": "./assets/images/ohmyfood.webp",
     "url": "https://thierry-e.github.io/OC-P4-OhMyFood/"
   },
 
   {
     "id": 3,
     "name": "Print-it",
-    "description": "Améliotation d'un site d'imprimerie avec l'ajout d'un caroussel.",
+    "description": "Amélioration d'un site d'imprimerie avec l'ajout d'un caroussel.",
     "langages": " Les langages suivants ont étaient utilisés : HTML, CSS et JavaScript",
     "picture": "./assets/images/print-it.webp",
     "url": "https://thierry-e.github.io/OC-P5-Print-it/"
