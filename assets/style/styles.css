@@ -34,7 +34,7 @@ h2 {
 
 p,
 a {
-  font-size: 1.1em;
+  font-size: 1.2em;
   font-weight: 500;
 }
 
@@ -142,14 +142,14 @@ nav a:hover {
 }
 
 /******Couleurs******/
-.formation {
+.stack {
   padding: 100px;
   background-color: #e8e1c4;
 }
-.formation p {
+.stack p {
   margin-bottom: 40px;
 }
-.formation .all_languages {
+.stack .all_languages {
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -157,7 +157,7 @@ nav a:hover {
   flex-wrap: wrap;
   gap: 5em;
 }
-.formation .all_languages .languages {
+.stack .all_languages .languages {
   width: 200px;
   height: 200px;
   padding: 20px;
@@ -165,11 +165,11 @@ nav a:hover {
   flex-direction: column;
   align-items: center;
 }
-.formation .all_languages .languages img {
+.stack .all_languages .languages img {
   width: 100%;
   object-fit: cover;
 }
-.formation .all_languages .languages p {
+.stack .all_languages .languages p {
   font-size: 1.5em;
   font-weight: 500;
 }
