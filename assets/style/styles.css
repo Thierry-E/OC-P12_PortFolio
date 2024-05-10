@@ -6,6 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 body {
@@ -41,7 +42,7 @@ a {
 main {
   width: 1440px;
   background-color: #fff;
-  margin: 60px auto;
+  margin: 60px auto 0;
   border-radius: 25px;
 }
 
@@ -68,6 +69,21 @@ header h1 {
   text-align: center;
   border: 2px solid rgba(255, 255, 255, 0.6);
   border-radius: 15px;
+}
+
+/******Couleurs******/
+footer {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer p {
+  color: #fff;
+  font-size: 1.2em;
+  text-align: center;
+  word-spacing: 6px;
 }
 
 /******Couleurs******/
@@ -273,6 +289,98 @@ nav a:hover {
   background-color: #e8e1c4;
   color: #000;
   border: 1px solid #000;
+}
+
+/******Couleurs******/
+.contact {
+  padding: 100px;
+  background-color: #e8e1c4;
+  border-radius: 0 0 25px 25px;
+}
+.contact p {
+  margin-bottom: 30px;
+}
+.contact .contactContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+}
+.contact .contactContainer form {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.contact .contactContainer form legend {
+  margin-bottom: 20px;
+  font-size: 1.2em;
+}
+.contact .contactContainer form .formSymbole {
+  color: #ed0010;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+.contact .contactContainer form label {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+.contact .contactContainer form input {
+  width: 20em;
+  height: 2.2em;
+  border-radius: 10px;
+  outline: none;
+  font-size: 1.2em;
+  padding: 5px 10px;
+  margin-bottom: 15px;
+}
+.contact .contactContainer form textarea {
+  width: 25em;
+  height: 10em;
+  border-radius: 10px;
+  border: 2px solid #000;
+  outline: none;
+  font-size: 1.2em;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+.contact .contactContainer form .formSubmit {
+  width: 20.5em;
+  height: 2.5em;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 10px 0;
+  cursor: pointer;
+  background-color: #000;
+  color: #fff;
+}
+.contact .contactContainer form .formSubmit:hover {
+  transform: scale(0.96);
+}
+.contact .contactContainer .contactLinks {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  padding: 90px 20px 0 20px;
+}
+.contact .contactContainer .contactLinks a {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  color: #000;
+  cursor: pointer;
+}
+.contact .contactContainer .contactLinks a i {
+  font-size: 1.8em;
+  padding-right: 15px;
+}
+.contact .contactContainer .contactLinks a img {
+  width: 1.8em;
+  margin-right: 15px;
+  border-radius: 50%;
+}
+.contact .contactContainer .contactLinks a:hover {
+  transform: scale(1.2);
 }
 
 /*# sourceMappingURL=styles.css.map */

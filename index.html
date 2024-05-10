@@ -6,6 +6,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="./assets/style/styles.css">
    <script src="./assets/scripts/gallery.js" defer></script>
+   <script src="./assets/scripts/contact.js" defer></script>
    <!--font awasome-->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
       integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
@@ -94,7 +95,45 @@
          <p>Explorez les réalisations les plus marquantes de mon parcours :</p>
          <div class="gallery"></div>
       </section>
+      <section class="contact" id="contact">
+         <h2>Restons en Contact</h2>
+         <p>Souhaitez-vous entrer en contact ? Utilisez le formulaire ci-dessous pour me transmettre vos questions,
+            suggestions ou
+            projets. Je suis là pour vous écouter ! En outre, n'hésitez pas à explorer les liens ci-dessous pour accéder
+            à mon
+            profil sur GitHub ou LinkedIn, découvrir ma veille technologique, ou me contacter directement par e-mail et
+            téléphone</p>
+         <div class="contactContainer">
+            <form action="mailto:thierry28.emery@gmail.com" method="post">
+               <legend> <span class="formSymbole">(*)</span>, Veuillez compléter tous les champs qui portent un
+                  astérisque avant de
+                  procéder à l'envoi du formulaire.</legend>
+               <label for="name">Name<span class="formSymbole">*</span> :</label>
+               <input type="text" id="name" name="name" required>
+               <label for="firstName">Prénom*<span class="formSymbole">*</span>: </label>
+               <input type="text" id="firstName" name="firstName" required>
+               <label for="email">E-mail<span class="formSymbole">*</span> : </label>
+               <input type="email" id="email" name="email" required>
+               <label for="message">Votre message<span class="formSymbole">*</span> : </label>
+               <textarea name="message" id="message" required></textarea>
+               <input type="submit" value="Envoyer" class="formSubmit">
+            </form>
+            <div class="contactLinks">
+               <a href="mailto:thierry28.emery@gmail.com"><i class="fa-solid fa-envelope"></i> E-mail</a>
+               <a href="#"><i class="fa-solid fa-mobile-screen"></i> Téléphone</a>
+               <a href="https://www.linkedin.com/in/thierry-emery-652311229/"><i class="fa-brands fa-linkedin"></i>
+                  LinkedIn</a>
+               <a href="https://github.com/Thierry-E"><i class="fa-brands fa-github"></i>Github</a>
+               <a href="https://wakelet.com/@ThierryE18579"><img src="./assets/images/logoWakelet.webp"
+                     alt="Logo du site Wakelet"> Veille via
+                  Wakelet</a>
+            </div>
+         </div>
+      </section>
    </main>
+   <footer>
+      <p>© Copyright Thierry.E 2024</p>
+   </footer>
 </body>
 
 </html>

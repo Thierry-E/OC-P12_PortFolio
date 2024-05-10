@@ -1,0 +1,15 @@
+@import '../utils/variables';
+
+footer {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  p {
+    color: $primary_color;
+    font-size: 1.2em;
+    text-align: center;
+    word-spacing: 6px;
+  }
+}

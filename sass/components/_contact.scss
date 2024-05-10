@@ -1,0 +1,106 @@
+@import '../utils/variables';
+
+.contact {
+  padding: 100px;
+  background-color: $third-color;
+  border-radius: 0 0 25px 25px;
+
+  p {
+    margin-bottom: 30px;
+  }
+
+  .contactContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+
+    form {
+      width: 40%;
+      display: flex;
+      flex-direction: column;
+
+      legend {
+        margin-bottom: 20px;
+        font-size: 1.2em;
+      }
+
+      .formSymbole {
+        color: $fifth_color;
+        font-weight: bold;
+        font-size: 1.3em;
+      }
+
+      label {
+        font-size: 1.2em;
+        font-weight: bold;
+        margin-bottom: 0.5em;
+      }
+
+      input {
+        width: 20em;
+        height: 2.2em;
+        border-radius: 10px;
+        outline: none;
+        font-size: 1.2em;
+        padding: 5px 10px;
+        margin-bottom: 15px;
+      }
+
+      textarea {
+        width: 25em;
+        height: 10em;
+        border-radius: 10px;
+        border: 2px solid $secondary_color;
+        outline: none;
+        font-size: 1.2em;
+        margin-bottom: 15px;
+        padding: 10px;
+      }
+
+      .formSubmit {
+        width: 20.5em;
+        height: 2.5em;
+        font-size: 1.2em;
+        font-weight: bold;
+        padding: 10px 0;
+        cursor: pointer;
+        background-color: $secondary_color;
+        color: $primary_color;
+      }
+
+      .formSubmit:hover {
+        transform: scale(0.96);
+      }
+    }
+
+    .contactLinks {
+      width: 40%;
+      display: flex;
+      flex-direction: column;
+      padding: 90px 20px 0 20px;
+
+      a {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        color: $secondary_color;
+        cursor: pointer;
+        i {
+          font-size: 1.8em;
+          padding-right: 15px;
+        }
+
+        img {
+          width: 1.8em;
+          margin-right: 15px;
+          border-radius: 50%;
+        }
+      }
+
+      a:hover {
+        transform: scale(1.2);
+      }
+    }
+  }
+}
