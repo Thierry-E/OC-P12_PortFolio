@@ -8,3 +8,9 @@
 @mixin font_Text {
   font-family: 'Lato', sans-serif;
 }
+
+/******Ombres Portées******/
+
+@mixin shadow_Link {
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+}

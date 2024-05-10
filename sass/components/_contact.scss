@@ -51,7 +51,6 @@
         width: 25em;
         height: 10em;
         border-radius: 10px;
-        border: 2px solid $secondary_color;
         outline: none;
         font-size: 1.2em;
         margin-bottom: 15px;
@@ -86,6 +85,7 @@
         margin-bottom: 20px;
         color: $secondary_color;
         cursor: pointer;
+        transition: transform 0.3s ease;
         i {
           font-size: 1.8em;
           padding-right: 15px;

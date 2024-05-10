@@ -41,4 +41,22 @@
     line-height: 30px;
     margin-bottom: 20px;
   }
+
+  .last_para {
+    margin-bottom: 40px;
+  }
+
+  a {
+    display: inline-block;
+    background-color: $third-color;
+    color: $secondary_color;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 15px;
+    @include shadow_Link;
+  }
+
+  a:hover {
+    transform: scale(0.9);
+  }
 }

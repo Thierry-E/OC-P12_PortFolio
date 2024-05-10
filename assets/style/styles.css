@@ -1,6 +1,9 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 /******Polices******/
+/******Ombres Portées******/
 /******Polices******/
+/******Ombres Portées******/
 /******Couleurs******/
 * {
   margin: 0;
@@ -47,17 +50,12 @@ main {
 }
 
 /******Polices******/
+/******Ombres Portées******/
 /******Couleurs******/
 header {
   width: 100%;
   height: 200px;
-  margin-bottom: 150px;
-}
-header img {
-  width: 5em;
-  height: 5em;
-  margin-top: 30px;
-  margin-left: 30px;
+  padding-top: 40px;
 }
 header h1 {
   width: 40%;
@@ -122,6 +120,7 @@ nav a:hover {
 
 /******Couleurs******/
 /******Polices******/
+/******Ombres Portées******/
 .about_me {
   padding: 100px;
 }
@@ -155,6 +154,21 @@ nav a:hover {
 .about_me .about_txt {
   line-height: 30px;
   margin-bottom: 20px;
+}
+.about_me .last_para {
+  margin-bottom: 40px;
+}
+.about_me a {
+  display: inline-block;
+  background-color: #e8e1c4;
+  color: #000;
+  font-weight: bold;
+  padding: 8px 15px;
+  border-radius: 15px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+}
+.about_me a:hover {
+  transform: scale(0.9);
 }
 
 /******Couleurs******/
@@ -338,7 +352,6 @@ nav a:hover {
   width: 25em;
   height: 10em;
   border-radius: 10px;
-  border: 2px solid #000;
   outline: none;
   font-size: 1.2em;
   margin-bottom: 15px;
@@ -369,6 +382,7 @@ nav a:hover {
   margin-bottom: 20px;
   color: #000;
   cursor: pointer;
+  transition: transform 0.3s ease;
 }
 .contact .contactContainer .contactLinks a i {
   font-size: 1.8em;
