@@ -6,9 +6,12 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  p {
+  h2 {
     color: $primary_color;
-    font-size: 1.2em;
+    background-color: rgba(0, 0, 0, 0.1);
+    font-size: 1.4em;
+    text-decoration: none;
+    font-weight: bold;
     text-align: center;
     word-spacing: 6px;
   }

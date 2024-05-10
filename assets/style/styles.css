@@ -77,9 +77,12 @@ footer {
   justify-content: center;
   align-items: center;
 }
-footer p {
+footer h2 {
   color: #fff;
-  font-size: 1.2em;
+  background-color: rgba(0, 0, 0, 0.1);
+  font-size: 1.4em;
+  text-decoration: none;
+  font-weight: bold;
   text-align: center;
   word-spacing: 6px;
 }
@@ -176,8 +179,10 @@ nav a:hover {
   padding: 100px;
   background-color: #e8e1c4;
 }
-.stack p {
-  margin-bottom: 40px;
+.stack h2 {
+  text-decoration: none;
+  font-size: 1.4em;
+  margin-top: 1%;
 }
 .stack .all_languages {
   margin: 0 auto;
