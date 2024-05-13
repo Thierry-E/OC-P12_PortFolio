@@ -8,6 +8,10 @@ header {
   height: 200px;
   padding-top: 40px;
 
+  @media screen and (max-width: 1024px) {
+    padding-top: 20px;
+  }
+
   h1 {
     width: 40%;
     background-color: rgba(0, 0, 0, 0.2);
@@ -18,5 +22,9 @@ header {
     text-align: center;
     border: 2px solid rgba(255, 255, 255, 0.6);
     border-radius: 15px;
+
+    @media screen and (max-width: 1024px) {
+      width: 80%;
+    }
   }
 }

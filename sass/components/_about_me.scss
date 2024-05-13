@@ -17,6 +17,11 @@
       border-radius: 50%;
       object-fit: cover;
       border: 4px solid $third-color;
+
+      @media screen and (max-width: 1024px) {
+        width: 225px;
+        height: 225px;
+      }
     }
   }
 
