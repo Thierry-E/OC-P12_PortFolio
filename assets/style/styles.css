@@ -18,6 +18,19 @@ body {
   background-repeat: repeat-y;
 }
 
+main {
+  max-width: 90%;
+  background-color: #fff;
+  margin: 60px auto 0;
+  border-radius: 25px;
+}
+@media screen and (max-width: 768px) {
+  main {
+    max-width: 100%;
+    margin: 10px auto 0;
+  }
+}
+
 h1,
 h2,
 h3,
@@ -35,22 +48,22 @@ h2 {
   text-decoration-thickness: 3px;
   text-underline-offset: 5px;
 }
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: 1.4em;
+  }
+}
 
 p,
 a {
   font-size: 1.2em;
   font-weight: 500;
 }
-
-main {
-  width: 1440px;
-  background-color: #fff;
-  margin: 60px auto 0;
-  border-radius: 25px;
-}
-@media screen and (max-width: 1024px) {
-  main {
-    width: 100%;
+@media screen and (max-width: 768px) {
+  p,
+  a {
+    font-size: 1em;
+    text-align: justify;
   }
 }
 
@@ -67,6 +80,11 @@ header {
     padding-top: 20px;
   }
 }
+@media screen and (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+}
 header h1 {
   width: 40%;
   background-color: rgba(0, 0, 0, 0.2);
@@ -81,6 +99,12 @@ header h1 {
 @media screen and (max-width: 1024px) {
   header h1 {
     width: 80%;
+  }
+}
+@media screen and (max-width: 768px) {
+  header h1 {
+    font-size: 1.8em;
+    margin: 10px auto;
   }
 }
 
@@ -101,6 +125,16 @@ footer h2 {
   text-align: center;
   word-spacing: 6px;
 }
+@media screen and (max-width: 768px) {
+  footer h2 {
+    font-size: 1.2em;
+  }
+}
+@media screen and (max-width: 768px) {
+  footer {
+    margin-top: 35px;
+  }
+}
 
 /******Couleurs******/
 nav {
@@ -109,6 +143,12 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+@media screen and (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    padding-top: 10px;
+  }
 }
 nav a {
   text-decoration: none;
@@ -121,6 +161,11 @@ nav a {
   border: 2px solid transparent;
   border-radius: 10px;
   transition: all ease;
+}
+@media screen and (max-width: 768px) {
+  nav a {
+    font-size: 1em;
+  }
 }
 nav a:hover {
   background-color: #e8e1c4;
@@ -140,6 +185,12 @@ nav a:hover {
     height: 450px;
   }
 }
+@media screen and (max-width: 768px) {
+  .banner {
+    margin-top: 95px;
+    height: 200px;
+  }
+}
 
 /******Couleurs******/
 /******Polices******/
@@ -154,6 +205,12 @@ nav a:hover {
   margin-bottom: 100px;
   gap: 50px;
 }
+@media screen and (max-width: 768px) {
+  .about_me .infos {
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+}
 .about_me .infos img {
   width: 250px;
   height: 250px;
@@ -167,6 +224,12 @@ nav a:hover {
     height: 225px;
   }
 }
+@media screen and (max-width: 768px) {
+  .about_me .infos img {
+    width: 170px;
+    height: 170px;
+  }
+}
 .about_me .infos_txt .name {
   font-size: 2.3em;
   font-weight: 500;
@@ -174,15 +237,30 @@ nav a:hover {
   word-spacing: 10px;
   margin-bottom: 50px;
 }
+@media screen and (max-width: 768px) {
+  .about_me .infos_txt .name {
+    font-size: 1.5em;
+  }
+}
 .about_me .infos_txt .city {
   font-size: 2em;
   font-weight: 500;
   font-style: oblique;
   text-align: center;
 }
+@media screen and (max-width: 768px) {
+  .about_me .infos_txt .city {
+    font-size: 1.3em;
+  }
+}
 .about_me .about_txt {
   line-height: 30px;
   margin-bottom: 20px;
+}
+@media screen and (max-width: 768px) {
+  .about_me .about_txt {
+    list-style: none;
+  }
 }
 .about_me .last_para {
   margin-bottom: 40px;
@@ -199,6 +277,11 @@ nav a:hover {
 .about_me a:hover {
   transform: scale(0.9);
 }
+@media screen and (max-width: 768px) {
+  .about_me {
+    padding: 50px;
+  }
+}
 
 /******Couleurs******/
 .stack {
@@ -214,9 +297,15 @@ nav a:hover {
   margin: 0 auto;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-content: center;
   flex-wrap: wrap;
   gap: 5em;
+}
+@media screen and (max-width: 768px) {
+  .stack .all_languages {
+    align-content: space-around;
+    gap: 2em;
+  }
 }
 .stack .all_languages .languages {
   width: 200px;
@@ -225,11 +314,19 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 50px;
 }
 @media screen and (max-width: 1024px) {
   .stack .all_languages .languages {
     width: 140px;
     height: 140px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .stack .all_languages .languages {
+    margin-top: 10px;
+    width: 110px;
+    height: 110px;
   }
 }
 .stack .all_languages .languages img {
@@ -239,6 +336,11 @@ nav a:hover {
 .stack .all_languages .languages p {
   font-size: 1.5em;
   font-weight: 500;
+}
+@media screen and (max-width: 768px) {
+  .stack {
+    padding: 50px;
+  }
 }
 
 /******Couleurs******/
@@ -269,6 +371,11 @@ nav a:hover {
 }
 .projets .cards p {
   margin: 20px 0;
+}
+@media screen and (max-width: 768px) {
+  .projets .cards {
+    width: 100%;
+  }
 }
 .projets .cards:hover {
   transform: scale(1.1);
@@ -324,6 +431,16 @@ nav a:hover {
   width: 85%;
   margin: 10px 0;
 }
+@media screen and (max-width: 768px) {
+  .projets .modal {
+    width: 350px;
+    height: 480px;
+    position: fixed;
+    top: 60%;
+    left: 3%;
+    transform: translate(-3%, -60%);
+  }
+}
 .projets a {
   width: 165px;
   margin-top: 20px;
@@ -341,6 +458,11 @@ nav a:hover {
   color: #000;
   border: 1px solid #000;
 }
+@media screen and (max-width: 768px) {
+  .projets {
+    padding: 50px;
+  }
+}
 
 /******Couleurs******/
 .contact {
@@ -350,6 +472,7 @@ nav a:hover {
 }
 .contact p {
   margin-bottom: 30px;
+  line-height: 25px;
 }
 .contact .contactContainer {
   width: 100%;
@@ -365,6 +488,11 @@ nav a:hover {
 .contact .contactContainer form legend {
   margin-bottom: 20px;
   font-size: 1.2em;
+}
+@media screen and (max-width: 768px) {
+  .contact .contactContainer form legend {
+    line-height: 26px;
+  }
 }
 .contact .contactContainer form .formSymbole {
   color: #ed0010;
@@ -407,6 +535,11 @@ nav a:hover {
 .contact .contactContainer form .formSubmit:hover {
   transform: scale(0.96);
 }
+@media screen and (max-width: 768px) {
+  .contact .contactContainer form {
+    width: 100%;
+  }
+}
 .contact .contactContainer .contactLinks {
   width: 40%;
   display: flex;
@@ -432,6 +565,23 @@ nav a:hover {
 }
 .contact .contactContainer .contactLinks a:hover {
   transform: scale(1.2);
+}
+@media screen and (max-width: 768px) {
+  .contact .contactContainer .contactLinks {
+    width: 100%;
+    padding: 20px 20px 0 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .contact .contactContainer {
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 768px) {
+  .contact {
+    padding: 50px 30px;
+    border-radius: 0 0 15px 15px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
