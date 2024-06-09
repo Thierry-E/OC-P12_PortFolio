@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Booki",
     "description": "Réalisation d'une page d'accueil pour une agence de voyage.",
-    "langages": "Les langages suivants ont étaient utilisés : HTML et CSS",
+    "langages": "Les technologies suivantes ont étaient utilisés : HTML et CSS",
     "picture": "./assets/images/booki.webp",
     "url": "https://thierry-e.github.io/OC-P3-Booky/"
   },
@@ -12,7 +12,7 @@
     "id": 2,
     "name": "OhMyFood",
     "description": "Amélioration d'un site mobile de restauration avec des animations CSS.",
-    "langages": " Les langages suivant ont étaient utilisés : HTML, CSS et Sass",
+    "langages": "Les technologies suivantes ont étaient utilisés : HTML, CSS et Sass",
     "picture": "./assets/images/ohMyFood.webp",
     "url": "https://thierry-e.github.io/OC-P4-OhMyFood/"
   },
@@ -21,8 +21,8 @@
     "id": 3,
     "name": "Print-it",
     "description": "Amélioration d'un site d'imprimerie avec l'ajout d'un caroussel.",
-    "langages": " Les langages suivants ont étaient utilisés : HTML, CSS et JavaScript",
-    "picture": "./assets/images/print-it.webp",
+    "langages": "Les technologies suivantes ont étaient utilisés : HTML, CSS et JavaScript",
+    "picture": "./assets/images/printit.webp",
     "url": "https://thierry-e.github.io/OC-P5-Print-it/"
   },
 
@@ -30,26 +30,44 @@
     "id": 4,
     "name": "Sophie Bluel",
     "description": "Création d'une page web dynamique.",
-    "langages": " Les langages suivants ont étaient utilisés : HTML, CSS et JavaScript",
+    "langages": "Les technologies suivantes ont étaient utilisés : HTML, CSS et JavaScript",
     "picture": "./assets/images/sophie-bluel.webp",
-    "url": "https://thierry-e.github.io/OC_P6_Portfolio-Sophie-Bluel/"
+    "url": "https://thierry-e.github.io/OC_P6_Portfolio-Sophie-Bluel/FrontEnd/index.html"
   },
 
   {
     "id": 5,
     "name": "Kasa",
     "description": "Création d'une application web pour une agence de voyage",
-    "langages": "Les langages suivants ont étaient utilisés : HTML, CSS, Sass et React",
+    "langages": "Les technologies suivantes ont étaient utilisés : HTML, CSS, Sass et React",
     "picture": "./assets/images/kasa.webp",
-    "url": "https://thierry-e.github.io/OC_P6_Portfolio-Sophie-Bluel/"
+    "url": "https://github.com/Thierry-E/OP-P8_Kasa"
   },
 
   {
     "id": 6,
     "name": "Nina Carducci",
     "description": "Optimisation d'un site de photographe professionnelle",
-    "langages": "Les langages suivants ont étaient utilisés : HTML, CSS et JavaScript",
-    "picture": "./assets/images/nina-carducci.webp",
-    "url": "https://thierry-e.github.io/OC-P9_Nina-Carducci/FrontEnd/index.html"
+    "langages": "Les technologies suivantes ont étaient utilisés : HTML, CSS et JavaScript",
+    "picture": "./assets/images/nina.webp",
+    "url": "https://thierry-e.github.io/OC-P9_Nina-Carducci/"
+  },
+
+  {
+    "id": 7,
+    "name": "ArgentBank",
+    "description": "Dévellopement d'une application bancaire permettant aux utilisateurs de consulter leurs comptes et activitées bancaire en ligne",
+    "langages": "Les technologies suivantes ont étaient utilisés : React, Vite, Sass et Redux.",
+    "picture": "./assets/images/bank-tree.webp",
+    "url": "https://github.com/Thierry-E/OC-P11_ArgentBank-"
+  },
+
+  {
+    "id": 8,
+    "name": "PortFolio",
+    "description": "Développement de mopn portfolio personnel",
+    "langages": "Les technologies suivantes ont étaient utilisés : HTML, CSS et JavaScript.",
+    "picture": "./assets/images/portfolio.webp",
+    "url": "https://thierry-e.github.io/OC-P12_PortFolio/"
   }
 ]
