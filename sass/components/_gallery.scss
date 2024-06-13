@@ -58,7 +58,7 @@
 
   .modal {
     width: 500px;
-    height: 500px;
+    height: 550px;
     background-color: $primary_color;
     position: fixed;
     top: 45%;
@@ -97,11 +97,10 @@
     }
 
     @media screen and (max-width: 768px) {
-      width: 350px;
-      height: 480px;
+      width: 320px;
       position: fixed;
       top: 60%;
-      left: 3%;
+      left: 8%;
       transform: translate(-3%, -60%);
     }
   }

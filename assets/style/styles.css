@@ -410,7 +410,7 @@ nav a:hover {
 }
 .projets .modal {
   width: 500px;
-  height: 500px;
+  height: 550px;
   background-color: #fff;
   position: fixed;
   top: 45%;
@@ -446,11 +446,10 @@ nav a:hover {
 }
 @media screen and (max-width: 768px) {
   .projets .modal {
-    width: 350px;
-    height: 480px;
+    width: 320px;
     position: fixed;
     top: 60%;
-    left: 3%;
+    left: 8%;
     transform: translate(-3%, -60%);
   }
 }
