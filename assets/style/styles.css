@@ -407,7 +407,7 @@ nav a:hover {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 .projets .modal {
   width: 500px;
@@ -422,6 +422,7 @@ nav a:hover {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  box-shadow: 0 0 10px 3px rgba(255, 255, 255, 0.2);
 }
 .projets .modal i {
   position: absolute;
