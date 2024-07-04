@@ -68,7 +68,7 @@ function openModal(projet) {
   const close = document.querySelector('.fa-xmark')
   close.addEventListener('click', () => {
     modal.remove() //Supprimer la modale
-    overlay.remove() //supprimer la modale
+    overlay.remove() //supprimer l'overlay
   })
 
   // Ajout d'un écouteur d'événement pour fermer la modale au clic sur l'overlay

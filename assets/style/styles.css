@@ -15,7 +15,7 @@
 body {
   font-family: "Lato", sans-serif;
   background: url("../../assets/images/fond.webp");
-  background-repeat: repeat-y;
+  background-repeat: repeat;
 }
 
 main {
