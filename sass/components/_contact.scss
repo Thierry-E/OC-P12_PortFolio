@@ -2,7 +2,7 @@
 
 .contact {
   padding: 100px;
-  background-color: $third-color;
+  background-color: $primary_color;
   border-radius: 0 0 25px 25px;
 
   p {
@@ -46,6 +46,7 @@
         width: 15em;
         height: 1.8em;
         border-radius: 10px;
+        background-color: $third_color;
         outline: none;
         font-size: 1.2em;
         padding: 5px 10px;
@@ -56,6 +57,7 @@
         width: 100%;
         height: 10em;
         border-radius: 10px;
+        background-color: $third_color;
         outline: none;
         font-size: 1.2em;
         margin-bottom: 15px;
@@ -69,8 +71,8 @@
         font-weight: bold;
         padding: 6px 0;
         cursor: pointer;
-        background-color: $secondary_color;
-        color: $primary_color;
+        background-color: $third_color;
+        color: $secondary_color;
       }
 
       .formSubmit:hover {

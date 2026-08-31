@@ -1,0 +1,73 @@
+@import '../utils/variables.scss';
+
+.veille {
+  padding: 100px;
+  background-color: $third_color;
+
+  p {
+    margin-bottom: 35px;
+  }
+
+  .veilleContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .veilleCard {
+    width: 30%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 18px;
+    padding: 10px;
+
+    background-color: $primary_color;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 320'%3E%3Cpolygon points='5,25 22,53 -12,53' fill='none' stroke='%23c5ad62' stroke-width='2' opacity='.55' transform='rotate(-15 5 39)'/%3E%3Cpolygon points='395,28 412,56 378,56' fill='none' stroke='%23c5ad62' stroke-width='2' opacity='.55' transform='rotate(14 395 42)'/%3E%3Cpolygon points='35,275 52,303 18,303' fill='none' stroke='%23c5ad62' stroke-width='2' opacity='.55' transform='rotate(-12 35 289)'/%3E%3Cpolygon points='365,270 382,298 348,298' fill='none' stroke='%23c5ad62' stroke-width='2' opacity='.55' transform='rotate(12 365 284)'/%3E%3Cpolygon points='200,155 250,242 150,242' fill='none' stroke='%23c5ad62' stroke-width='2.5' opacity='.35' transform='rotate(8 200 198)'/%3E%3C/svg%3E");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    border-radius: 20px;
+    border: 2px solid $secondary_color;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+
+    p {
+      margin: 0;
+    }
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+
+  a {
+    width: 165px;
+    margin-top: auto;
+    background-color: $secondary_color;
+    color: $primary_color;
+    text-decoration: none;
+    text-align: center;
+    padding: 8px;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    transition: all 1s ease-out;
+
+    &:hover {
+      background-color: $third_color;
+      color: $secondary_color;
+      border: 1px solid $secondary_color;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    padding: 50px;
+
+    .veilleCard {
+      width: 100%;
+    }
+  }
+}
