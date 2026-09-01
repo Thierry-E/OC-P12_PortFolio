@@ -21,22 +21,64 @@ fetch('/.netlify/functions/veille')
     console.log('Articles récupérés pour affichage :', articles)
 
     const gallery = document.querySelector('.veilleContainer')
+    const previousButton = document.querySelector('.previousButton')
+    const nextButton = document.querySelector('.nextButton')
+    const pageInfo = document.querySelector('.pageInfo')
 
-    articles.forEach((article) => {
-      const card = document.createElement('article')
-      card.classList.add('veilleCard')
+    const articlesPerPage = 6
+    let currentPage = 1
 
-      card.innerHTML = `
-        <h3>${article.nom}</h3>
-        <p><strong>${article.categorie}</strong> · ${article.source} · ${article.dateAjout}</p>
-        <p><strong>Mon avis :</strong> ${article.avis}</p>
-        <a href="${article.lien}" target="_blank" rel="noopener noreferrer">
-          Lire l'article
-        </a>
-      `
+    const totalPages = Math.ceil(articles.length / articlesPerPage)
 
-      gallery.appendChild(card)
+    function displayArticles() {
+      gallery.innerHTML = ''
+
+      const start = (currentPage - 1) * articlesPerPage
+      const end = start + articlesPerPage
+
+      const articlesToDisplay = articles.slice(start, end)
+
+      articlesToDisplay.forEach((article) => {
+        const card = document.createElement('article')
+        card.classList.add('veilleCard')
+
+        card.innerHTML = `
+          <h3>${article.nom}</h3>
+          <p><strong>${article.categorie}</strong> · ${article.source} · ${article.dateAjout}</p>
+          <p><strong>Mon avis :</strong> ${article.avis}</p>
+          <a href="${article.lien}" target="_blank" rel="noopener noreferrer">
+            Lire l'article
+          </a>
+        `
+
+        gallery.appendChild(card)
+      })
+
+      pageInfo.textContent = `${currentPage} / ${totalPages}`
+
+      previousButton.disabled = currentPage === 1
+      nextButton.disabled = currentPage === totalPages
+
+      const pagination = document.querySelector('.veillePagination')
+
+      pagination.style.display = totalPages <= 1 ? 'none' : 'flex'
+    }
+
+    previousButton.addEventListener('click', () => {
+      if (currentPage > 1) {
+        currentPage--
+        displayArticles()
+      }
     })
+
+    nextButton.addEventListener('click', () => {
+      if (currentPage < totalPages) {
+        currentPage++
+        displayArticles()
+      }
+    })
+
+    displayArticles()
   })
   .catch((error) => {
     console.error('Erreur lors de la récupération des articles :', error)
